@@ -1,0 +1,12 @@
+.content {
+  max-width: 40rem;
+  margin: 4rem auto;
+}
+
+.name {
+  font-family: "Alice", serif;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1;
+  color: #5fbb97;
+}
