@@ -48,8 +48,8 @@ const Experience = () => (
         <h3>Medium</h3>
         <div className={styles.role}>
           <div>Principal engineer • May 2019 – March 2021</div>
-          <div>Staff engineer • ??? 2018 – May 2019</div>
-          <div>Senior engineer • March 2017 – ??? 2018</div>
+          <div>Staff engineer • November 2018 – May 2019</div>
+          <div>Senior engineer • March 2017 – November 2018</div>
         </div>
         <ul className={styles.accomplishments}>
           <li>
