@@ -81,8 +81,8 @@ const Experience = () => (
             dashboards with reusable components
           </li>
           <li>
-            Worked to guide and nurture the company culture, in writing and in
-            deed
+            Wrote numerous print-quality internal posts furthering the company
+            culture and direction
           </li>
         </ul>
       </li>
