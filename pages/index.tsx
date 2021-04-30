@@ -47,9 +47,18 @@ const Experience = () => (
       <li>
         <h3>Medium</h3>
         <div className={styles.role}>
-          <div>Principal engineer • May 2019 – March 2021</div>
-          <div>Staff engineer • November 2018 – May 2019</div>
-          <div>Senior engineer • March 2017 – November 2018</div>
+          <div>
+            <span className={styles.title}>Principal engineer</span> •{" "}
+            <span className={styles.dates}>May 2019 – March 2021</span>
+          </div>
+          <div>
+            <span className={styles.title}>Staff engineer</span> •{" "}
+            <span className={styles.dates}>November 2018 – May 2019</span>
+          </div>
+          <div>
+            <span className={styles.title}>Senior engineer</span> •{" "}
+            <span className={styles.dates}>March 2017 – November 2018</span>
+          </div>
         </div>
         <ul className={styles.accomplishments}>
           <li>
@@ -88,7 +97,10 @@ const Experience = () => (
       </li>
       <li>
         <h3>Trex Labs</h3>
-        <div className={styles.role}>Co-founder • March 2015 – March 2016</div>
+        <div className={styles.role}>
+          <span className={styles.title}>Co-founder</span> •{" "}
+          <span className={styles.dates}>March 2015 – March 2016</span>
+        </div>
         <ul className={styles.accomplishments}>
           <li>
             Explored new UX paradigms for software development, with the goal of
@@ -99,7 +111,8 @@ const Experience = () => (
       <li>
         <h3>Thumbtack</h3>
         <div className={styles.role}>
-          Software engineer • September 2010 – June 2014
+          <span className={styles.title}>Software engineer</span> •{" "}
+          <span className={styles.dates}>September 2010 – June 2014</span>
         </div>
         <ul className={styles.accomplishments}>
           <li>
