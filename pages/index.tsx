@@ -24,7 +24,7 @@ export default function Home() {
 }
 
 const Essentials = () => (
-  <header>
+  <header className={styles.header}>
     <h1 className={styles.name}>Lyra Torben Naeseth</h1>
     <div className={styles.contact}>
       <a href="mailto:lyra@hey.com">
@@ -63,35 +63,36 @@ const Experience = () => (
         <ul className={styles.accomplishments}>
           <li>
             Led the core infrastructure team in building a new Kubernetes- and
-            Istio-based production platform, and successfully migrating
-            production services and traffic to it
+            Istio-based production platform, and successfully migrating all
+            production traffic and dozens of services
           </li>
           <li>
-            Productionized Medium’s new React + GraphQL frontend architecture;
-            wrote the initial TypeScript GraphQL server and backend API
-            integration
+            Productionized Medium’s new React + GraphQL frontend architecture,
+            bridging the DevOps team with the frontend platform team using my
+            deep knowledge of both areas
           </li>
           <li>
-            Designed, implemented, and documented a framework and scaffolding
-            for Go microservices, enabling engineers to focus on their task at
-            hand
+            Led the final delivery of Medium’s profile redesign, a
+            business-critical project with a high-profile launch, coordinating
+            across PM’s and product and infrastructure engineering
           </li>
           <li>
-            Rewrote the inner layer of Medium’s node.js monolith, saving
-            terabytes of production RAM and eliminating chronic tail latency
-            issues
+            Designed, implemented, and documented a framework for Go
+            microservices, improving velocity and maintainability, and helping
+            onboard engineers without prior Go experience
           </li>
           <li>
-            Led the delivery of subdomains for profiles, including integration
-            with Cloudflare Workers
+            Rewrote the inner layer of Medium’s node.js monolith, halving its
+            production RAM use and eliminating chronic tail latency issues
           </li>
           <li>
-            Developed a TypeScript library for creating maintainable Grafana
-            dashboards with reusable components
+            Made production health accessible to engineers by developing a
+            library to create, generate, and maintain Grafana dashboards in
+            TypeScript
           </li>
           <li>
-            Wrote numerous print-quality internal posts furthering the company
-            culture and direction
+            Grew and nurtured both the company culture and engineers’ technical
+            understanding via numerous internal articles and presentations
           </li>
         </ul>
       </li>
@@ -123,10 +124,11 @@ const Experience = () => (
             Engineered a structured consumer request system to streamline
             matchmaking
           </li>
-          <li>
-            Designed an authentication framework for secure one-click sign-on
-          </li>
           <li>Designed and implemented the site’s core HTTP routing layer</li>
+          <li>
+            Designed an authentication framework for secure one-click sign-on,
+            reducing abandoment
+          </li>
         </ul>
       </li>
     </ul>
