@@ -14,7 +14,7 @@ I started writing in it plain HTML in a fit of GeoCities-era nostalgia, but when
 Oh, hi, are you me? Here to update the professional credentials? No problem; start the [Next.js][next] dev server with:
 
 ```sh
-yarn dev
+npm run dev
 ```
 
 Changes pushed to the `main` branch on GitHub will be deployed automatically.
