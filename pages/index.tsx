@@ -3,17 +3,14 @@ import {GitHub, Mail, Twitter} from "react-feather"
 
 import styles from "../styles/resume.module.css"
 
+document.fonts
+
 export default function Home() {
   return (
     <main className={styles.content}>
       <Head>
         <title>Lyra Torben Naeseth &middot; software engineering résumé</title>
         <Icons />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Alice&family=Sarabun:ital,wght@0,100;0,200;0,400;1,200&display=swap"
-          rel="stylesheet"
-        />
       </Head>
 
       <Essentials />

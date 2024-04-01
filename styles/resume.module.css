@@ -6,14 +6,14 @@
 .name {
   margin: 0;
   color: #5fbb97;
-  font-family: "Alice", serif;
+  font-family: "Cabin", serif;
   font-size: 3rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1;
 }
 
 .contact {
-  font-family: "Sarabun", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-weight: 200;
   margin: 1em 0;
 }
