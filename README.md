@@ -1,6 +1,6 @@
 # Lyra’s résumé
 
-Hello! This is the source code for my software engineering résumé.
+Hello! This repository hosts my software engineering [résumé](./public/resume.pdf).
 
 I started writing in it plain HTML in a fit of GeoCities-era nostalgia, but when that desire faded, I put it together with [Next.js][next] and [TypeScript][ts]. It’s served [on the web][prod] via [CloudFlare Pages][cfp].
 
@@ -11,7 +11,7 @@ I started writing in it plain HTML in a fit of GeoCities-era nostalgia, but when
 
 ## Making changes
 
-Oh, hi, are you me? Here to update the professional credentials? No problem; start the [Next.js][next] dev server with:
+Oh, hi, are you me? Here to update the professional homepage? No problem; start the [Next.js][next] dev server with:
 
 ```sh
 npm run dev
