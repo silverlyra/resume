@@ -20,8 +20,8 @@ const Essentials = () => (
   <header className={styles.header}>
     <h1 className={styles.name}>Lyra Naeseth</h1>
     <div className={styles.contact}>
-      <a href="mailto:lyra+contact@omg.lol">
-        <Mail size="1rem" /> lyra@omg.lol
+      <a href="mailto:lyra+engineer@naeseth.com">
+        <Mail size="1rem" /> lyra@naeseth.com
       </a>
       <a href="https://github.com/silverlyra">
         <GitHub size="1rem" /> silverlyra
